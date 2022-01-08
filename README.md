@@ -1,6 +1,12 @@
 # Consuming-API-in-Andriod
 This repository contains HttpUrlConnection and Volley based application example. In this you will find implementation of both ways to consume API. This repository show examples to send receive the data in both cases. 
 
+## DEMO
+
+
+https://user-images.githubusercontent.com/66442918/148640530-2cd3d210-78c2-4d73-ab5f-05cb66d211aa.mp4
+
+
 ## HttpUrlConnection
 ### Fetching data
 
