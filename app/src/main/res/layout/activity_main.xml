@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="userEmail"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="userPassword"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_userFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="userFirstName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_userLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="userLastName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_userMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="userMobile"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txt_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Response"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+</LinearLayout>
